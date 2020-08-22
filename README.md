@@ -58,8 +58,8 @@ Command Structure:
 ```
 
 - `trigger` - one of "plex" or "ombibot" or "ombi"
-- `command` - one of "download" or "find" or "search" or "get" or "request"
-- `expression` - the movie you're searching for (TV support coming soon.)
+- `command` - one of "m" or "mov" or "movie" or "t" or "tv" or "show" or "series"
+- `expression` - the movie or show you're searching for
 
 You can also send DMs to the bot, for your more embarassing requests. The DMs don't require the trigger word.
 
