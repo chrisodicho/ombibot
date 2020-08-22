@@ -8,5 +8,7 @@ version: "3.4"
       - PGID=${PGID}
       - TZ=${TZ}
       - API_USERNAME=${API_USERNAME}
-      - SLACK_API_TOKEN=${SLACK_API_TOKEN}
       - OMBI_API_KEY=${OMBI_API_KEY}
+      - OMBI_URL=${OMBI_URL}
+      - SLACK_API_TOKEN=${SLACK_API_TOKEN}
+
