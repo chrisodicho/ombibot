@@ -45,12 +45,6 @@ $ bundle exec foreman start
 
 ## How to use:
 
-```
-plex search ricky bobby
-```
-
-will return Talladega Nights: The Ballad of Ricky Bobby
-
 Command Structure:
 
 ```
