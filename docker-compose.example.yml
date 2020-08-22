@@ -1,0 +1,12 @@
+version: "3.4"
+  ombibot:
+    container_name: ombibot
+    image: chrisodicho/ombibot
+    restart: unless-stopped
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - API_USERNAME=${API_USERNAME}
+      - SLACK_API_TOKEN=${SLACK_API_TOKEN}
+      - OMBI_API_KEY=${OMBI_API_KEY}
