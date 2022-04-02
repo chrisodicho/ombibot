@@ -1,4 +1,4 @@
-FROM lockitron/rpi-ruby:2.3.3
+FROM ruby:2.3.0
 
 RUN sudo apt-get update && sudo apt-get -y install build-essential
 
